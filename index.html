@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>AHA apps</title>
+    <link rel="icon" href="images/favicon.svg" sizes="32x32" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/95092d94ea.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- header-section -->
+    <section class="banner-section">
+      <header class="navbar-section">
+        <nav class="container-fluid">
+          <div class="navbar">
+            <div class="logo">
+              <a href="index.html">
+                <img src="images/logo.svg" alt="aha-logo" />
+              </a>
+            </div>
+            <div class="navbar-collapse">
+              <ul class="navbar-nav" id="side-menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="row">
+                  <a href="services.html" target="_blank">Services</a>
+                  <span><img src="images/icon-arrow-dropdown.svg" alt="icon"/></span>
+                </li>
+                <li><a href="case-studies.html" target="_blank">Case Studies</a></li>
+                <li><a href="company.html" target="_blank">Company</a></li>
+                <li><a href="support.html" target="_blank">Support</a></li>
+                <li class="button">
+                  <a href="schedule.html" class="primary-btn" target="_blank">Schedule a Demo</a>
+                </li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+              </ul>
+              <i class="fas fa-bars" onclick="openmenu()"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="banner-text row">
+        <div class="banner-content container text-center row">
+          <h1>Custom Mobile Apps to Streamline Your Field Operations</h1>
+          <h5>
+            Boost the eﬃciency of your sales and service teams while providing
+            the best customer service possible
+          </h5>
+          <div class="banner-button">
+            <a href="schedule.html" class="primary-btn" target="_blank">Schedule a Demo</a>
+          </div>
+          <h6>Calculate My ROI</h6>
+        </div>
+      </div>
+    </section>
+    <!-- header-section-end -->
+    <!-- feature-section -->
+    <section class="feature-section">
+      <div class="container">
+        <div class="feature-content row">
+          <div class="feature-box row">
+            <div class="feature-icon">
+              <img src="images/icon-feature-1.svg" alt="icon" />
+            </div>
+            <div class="feature-text">Manage teams easily</div>
+          </div>
+          <div class="feature-box row">
+            <div class="feature-icon">
+              <img src="images/icon-feature-2.svg" alt="icon" />
+            </div>
+            <div class="feature-text">Improve time management</div>
+          </div>
+          <div class="feature-box row">
+            <div class="feature-icon">
+              <img src="images/icon-feature-3.svg" alt="icon" />
+            </div>
+            <div class="feature-text">eliminate manual work</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feature-section-end -->
+    <!-- about-section -->
+    <section class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="about-content">
+            <h2>Field operations can suffer when using outdated technology</h2>
+            <p>
+              We realize how frustrating it is to have field operations move at
+              a glacial pace. The last thing you want is to be left behind by
+              competitors who embrace more efficient technology. Without the
+              right tools to manage your sales and service teams, your outdated
+              systems could be holding your company back.
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="images/about-img.svg" alt="icon" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about-section-end -->
+    <!-- service-section -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="text-center">
+          Your sales and service teams deserve software built just for them
+        </h2>
+        <div class="row">
+          <div class="service-box row">
+            <h6 class="service-heading">Data Collection</h6>
+            <p>
+              Streamline the process of your inspections and surveys by
+              collecting data effortlessly. A custom app will save your team
+              energy and time, allowing them to work more efficiently.
+            </p>
+            <div class="service-button">
+              <a href="data-collection.html" class="secondary-btn" target="_blank">data collection</a>
+            </div>
+          </div>
+          <div class="service-box row">
+            <h6 class="service-heading">Sales Acceleration</h6>
+            <p>
+              Streamline the process of your inspections and surveys by
+              collecting data effortlessly. A custom app will save your team
+              energy and time, allowing them to work more efficiently.
+            </p>
+            <div class="service-button">
+              <a href="sales.html" class="secondary-btn" target="_blank">Sales</a>
+            </div>
+          </div>
+          <div class="service-box row">
+            <h6 class="service-heading">Field Service</h6>
+            <p>
+              Streamline the process of your inspections and surveys by
+              collecting data effortlessly. A custom app will save your team
+              energy and time, allowing them to work more efficiently.
+            </p>
+            <div class="service-button">
+              <a href="field-service.html" class="secondary-btn" target="_blank">Field Service</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service-section-end -->
+    <!-- testimonial-section -->
+    <section class="testimonial-section">
+      <div class="container">
+        <div class="testimonials row">
+          <div class="testimonial-box row">
+            <div class="testimonial-image text-center row">
+              <img src="images/testimonial-1.svg" alt="icon" />
+              <p class="name">Tom Tanase Bowlero</p>
+            </div>
+            <div class="testimonial-content">
+              <i><p>“Aha apps helped us take a failed program and turn it into a
+                  moneymaking tool. We went from not being about to book online
+                  at all, to increasing sales dramatically. I don’t think we
+                  would have gotten there without Aha Apps.”</p></i>
+            </div>
+          </div>
+          <div class="testimonial-box row">
+            <div class="testimonial-image text-center">
+              <img src="images/testimonial-2.svg" alt="icon" />
+              <p class="name">Kim Rometo Miami Dolphins</p>
+            </div>
+            <div class="testimonial-content">
+              <i><p>“They are differentiated in the market by understanding the
+                  business domain and user stories first and then developing the
+                  appropriate solutions to solve challenges.”
+                </p></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial-section-end -->
+    <!-- schedule-section -->
+    <section class="schedule-section">
+      <div class="container">
+        <div class="schedule-content row">
+          <div class="schedule-left row">
+            <h3>
+              For over a decade, we’ve been creating customized tools for
+              businesses to manage their sales and service teams more
+              conveniently and easily.
+            </h3>
+            <div class="schedule-button">
+              <a href="schedule.html" class="primary-btn" target="_blank">Schedule a Demo</a>
+            </div>
+          </div>
+          <div class="schedule-right row">
+            <div class="schedule-points">
+              <div class="schedule-row row">
+                <div class="schedule-icon">1</div>
+                <h6>Plan</h6>
+              </div>
+              <p>We start by understanding your needs and requirements to create
+                a plan you feel confident in.</p>
+            </div>
+            <div class="schedule-points">
+              <div class="schedule-row row">
+                <div class="schedule-icon">2</div>
+                <h6>Build</h6>
+              </div>
+              <p>We create custom software, and deploy it to your team for
+                testing and launching.</p>
+            </div>
+            <div class="schedule-points">
+              <div class="schedule-row row">
+                <div class="schedule-icon">3</div>
+                <h6>Thrive</h6>
+              </div>
+              <p>Your team works like a well-oiled machine, and we keep you
+                supported as you grow</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="schedule-cards row">
+          <div class="card text-center row">
+            <div class="schedule-icon card-icon">
+              <img src="images/icon-tick.svg" alt="icon" />
+            </div>
+            <h6>Get more out of your workforce</h6>
+          </div>
+          <div class="card text-center row">
+            <div class="schedule-icon card-icon">
+              <img src="images/icon-tick.svg" alt="icon" />
+            </div>
+            <h6>Have real-time info accessible when you need it</h6>
+          </div>
+          <div class="card text-center row">
+            <div class="schedule-icon card-icon">
+              <img src="images/icon-tick.svg" alt="icon" />
+            </div>
+            <h6>Maintain productivity while offline</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- schedule-section-end -->
+    <!-- why-section -->
+    <section class="why-section">
+      <div class="container">
+        <h2 class="text-center">Why Aha Apps?</h2>
+        <div class="row">
+          <div class="left">
+            <p>The last thing you need is an outdated system that is not mobile
+              friendly for your field staff, or an off-theshelf system that
+              doesn’t match the requirements of your teams. We find there’s no
+              one-size-fits-all for business technology, and that’s why each of
+              our products are built specifically for the needs of your team.</p>
+            <p>We also know that to ensure a successful software project, testing
+              is key to success. When real users get to play with a real app, we
+              get to analyze data, iterate on the fly, and ensure the app works
+              for them.</p>
+            <p>Often, the needs of your business can change after the app has
+              been deployed, and we want to be sure you’re getting the most out
+              of the technology possible. We’re committed to supporting your
+              business as needs change, because an evolving business is a
+              productive one that demands its tools keep pace with its needs.</p>
+            <p>Schedule a demo today to start streamlining your operations and
+              pleasing everyone on your teams.</p>
+          </div>
+          <div class="right">
+            <img src="images/why-aha-img.svg" alt="icon" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- why-section-end -->
+    <!-- ad-section -->
+    <section class="ad-section">
+      <div class="container">
+        <div class="ad-text row">
+          <div class="ad-content row">
+            <h4>
+              Your field operations should work at the speed you need to succeed
+            </h4>
+            <div class="ad-button">
+              <a href="schedule.html" class="primary-btn" target="_blank">Schedule a Demo</a>
+            </div>
+          </div>
+          <div class="ad-image">
+            <img src="images/ad-img.svg" alt="icon" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ad-section-end -->
+    <!-- logo-slider-section -->
+    <section class="logo-section">
+      <div class="container">
+        <div class="logo-slider row">
+          <img src="images/icon-arrow-left.svg" class="slider-arrow" alt="icon" />
+          <div class="logo-card row">
+            <img src="images/icon-logo-1.svg" alt="icon" />
+          </div>
+          <div class="logo-card row">
+            <img src="images/icon-logo-2.svg" alt="icon" />
+          </div>
+          <div class="logo-card row">
+            <img src="images/icon-logo-3.svg" alt="icon" />
+          </div>
+          <div class="logo-card row">
+            <img src="images/icon-logo-4.svg" alt="icon" />
+          </div>
+          <img src="images/icon-arrow-right.svg" class="slider-arrow" alt="icon" />
+        </div>
+      </div>
+    </section>
+    <!-- logo-slider-section-end -->
+    <!-- footer-section -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="first-column row">
+          <div class="footer-logo">
+            <img src="images/logo.svg" alt="icon" />
+          </div>
+          <div class="location row">
+            <div class="location-card row">
+              <div class="location-icon">
+                <img src="images/icon-location.svg" alt="icon" />
+              </div>
+              <p>9211 Forest Hill Ave, Suite 201 Richmond, VA 23235</p>
+            </div>
+            <div class="location-card row">
+              <div class="location-icon">
+                <img src="images/icon-location.svg" alt="icon" />
+              </div>
+              <p>1775 Tysons Blvd, Tysons, VA 22102.</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="second-column row">
+          <ul class="links row">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="services.html" target="_blank">Services</a>
+            </li>
+            <li>
+              <a href="case-studies.html" target="_blank">Case Studies</a>
+            </li>
+            <li><a href="company.html" target="_blank">Company</a></li>
+            <li><a href="support.html" target="_blank">Support</a></li>
+            <li>
+              <a href="schedule.html" target="_blank">Schedule a Demo</a>
+            </li>
+          </ul>
+          <div class="social-icons">
+            <img src="images/icon-twitter.svg" alt="icon" />
+            <img src="images/icon-linkedin.svg" alt="icon" />
+          </div>
+        </div>
+        <hr />
+        <div class="third-column row">
+          <div class="contact row">
+            <div class="contact-box row">
+              <div class="contact-icon">
+                <img src="images/icon-phone.svg" alt="icon" />
+              </div>
+              <div class="contact-text">
+                <div>Have a question?</div>
+                <p>+1 804-215-4497</p>
+              </div>
+            </div>
+            <div class="contact-box row">
+              <div class="contact-icon">
+                <img src="images/icon-mail.svg" alt="icon" />
+              </div>
+              <div class="contact-text">
+                <div>Contact us at</div>
+                <p>sales@ahaapps.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>Copyright © 2022 Aha Apps</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-section-end -->
+    <script src="js/mobile-menu.js"></script>
+  </body>
+</html>
